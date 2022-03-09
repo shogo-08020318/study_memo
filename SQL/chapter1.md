@@ -157,3 +157,9 @@ ALTER TABLE <変更前の名前> RENAME TO <変更後の名前>;
 ```sql
 ALTER TABLE Sohin RENAME TO Shohin;
 ```
+
+### カラムの変更
+カラム名の変更するとき
+```sql
+ALTER TABLE <テーブル名> RENAME COLUMN <変更前のカラム名> to <変更後のカラム名>;
+```
